@@ -11,7 +11,6 @@ This dashboard was developed as part of the InnovateHER hiring challenge conduct
 A walkthrough video demonstrating the dashboard's features and functionality (approx. 10 minutes) is available here:
 
 **[https://drive.google.com/file/d/1I2zYkY6whWnDLCFvmCel4_IgBaCu8lh8/view?usp=sharing](https://drive.google.com/file/d/1I2zYkY6whWnDLCFvmCel4_IgBaCu8lh8/view?usp=sharing)**
-*(Please ensure sharing permissions allow viewing)*
 
 ## Dashboard Preview
 
