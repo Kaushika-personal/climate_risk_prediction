@@ -1,0 +1,42 @@
+# requirements.txt for the Climate Risk & Insurance Intelligence Dashboard
+
+# Core Streamlit framework
+streamlit
+
+# Data handling and numerical operations
+pandas
+numpy
+
+# Plotting library
+plotly
+
+# HTTP requests (for APIs like OpenWeatherMap)
+requests
+
+# Machine Learning (Local Prediction Model)
+scikit-learn
+
+# Deep Learning (Simplified MetNet Demo)
+torch
+
+# Image handling (for AI Assistant & potential icons)
+Pillow
+
+# Environment variable management
+python-dotenv
+
+# Google Generative AI API Client
+google-generativeai
+
+# --- Notes ---
+# The following packages were present in the initial pip commands but appear unused
+# in the final script version provided (which uses Google Gemini directly):
+# langchain, openai, tavily-python, langchain_openai, langchain_community
+# transformers, accelerate, bitsandbytes, sentencepiece, huggingface_hub
+# pyngrok (often used for Colab/tunneling, not a core app dependency)
+
+# For better reproducibility, consider pinning versions, e.g.:
+# streamlit==1.3x.x
+# pandas==2.x.x
+# ... etc.
+# You can generate pinned versions using: pip freeze > requirements.txt
