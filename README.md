@@ -15,6 +15,8 @@ A walkthrough video demonstrating the dashboard's features and functionality (ap
 
 ## Dashboard Preview
 
+
+
 <!-- Using HTML table for side-by-side images -->
 <table>
   <tr>
@@ -27,15 +29,25 @@ A walkthrough video demonstrating the dashboard's features and functionality (ap
   </tr>
 </table>
 
+
+
+
+
 ## Features
 
 *   **Real-time Weather & Forecast:** Fetches and displays current conditions and a 5-7 day forecast for any specified city using the OpenWeatherMap API.
 *   **Local Temperature Prediction:** Ingests historical weather data (`local_weather.csv`), preprocesses it, and trains a Ridge Regression model (scikit-learn) to predict the next day's maximum temperature. Includes performance visualization and model details.
+
+
+
     <br>
     <div align="center">
       <img src="Screenshot 2025-04-03 164811.png" alt="Local Temperature Prediction Plot" width="75%">
       <br><i>Caption: Plot comparing actual vs. predicted maximum temperatures from the local model.</i>
     </div>
+
+
+
 *   **Climate Risk & Insurance Simulation:**
     *   Calculates simple risk factors based on current weather.
     *   Simulates insurance claims and links them to a climate risk index via a basic linear model for projection demonstration.
@@ -44,11 +56,16 @@ A walkthrough video demonstrating the dashboard's features and functionality (ap
 *   **Climate-Induced Migration Analysis (Simulated):** Visualizes simulated trends, causes, destinations, and future projections of climate migration. Includes risk scoring, correlation analysis, and policy recommendations based on simulated data.
 *   **Advanced Climate Model Demo (MetNet - Simplified):** Includes a highly simplified PyTorch implementation demonstrating the *concept* of using advanced models for spatial climate predictions (uses synthetic data, not operational).
 *   **Multimodal AI Assistant:** Integrates Google Gemini Pro Vision API for interactive Q&A, capable of understanding both text prompts and uploaded images related to climate risk and adaptation.
+
+
     <br>
     <div align="center">
       <img src="Screenshot 2025-04-03 164744.png" alt="Multimodal AI Assistant Interaction" width="75%">
       <br><i>Caption: Example interaction with the AI chatbot analyzing an uploaded image.</i>
     </div>
+
+
+
 *   **Interactive UI:** Built with Streamlit, utilizing tabs, selectors, plots, and custom styling for user interaction.
 
 ## Technology Stack
