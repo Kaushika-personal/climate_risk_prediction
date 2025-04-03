@@ -149,6 +149,6 @@ A walkthrough video demonstrating the dashboard's features and functionality (ap
 *   Real-time and forecast weather data is sourced from the [OpenWeatherMap API](https://openweathermap.org/).
 *   The historical local weather dataset (`local_weather.csv`) example is based on data available from [NOAA National Centers for Environmental Information (NCEI)](https://www.ncei.noaa.gov/).
 *   Climate migration and insurance claims data used in relevant sections are **simulated** for demonstration purposes within the application code.
-*   The AI Assistant utilizes the [Google Gemini API](https://ai.google.dev/).
+
 
 ---
