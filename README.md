@@ -6,10 +6,36 @@ This project is a Streamlit-based dashboard designed to integrate, analyze, and 
 
 This dashboard was developed as part of the InnovateHER hiring challenge conducted by Chubb.
 
+## Demo Video
+
+A walkthrough video demonstrating the dashboard's features and functionality (approx. 10 minutes) is available here:
+
+**[https://drive.google.com/file/d/1I2zYkY6whWnDLCFvmCel4_IgBaCu8lh8/view?usp=sharing](https://drive.google.com/file/d/1I2zYkY6whWnDLCFvmCel4_IgBaCu8lh8/view?usp=sharing)**
+*(Please ensure sharing permissions allow viewing)*
+
+## Dashboard Preview
+
+<!-- Using HTML table for side-by-side images -->
+<table>
+  <tr>
+    <td><img src="Screenshot 2025-04-03 164450.png" alt="Dashboard View 1" width="100%"></td>
+    <td><img src="Screenshot 2025-04-03 164507.png" alt="Dashboard View 2" width="100%"></td>
+  </tr>
+  <tr>
+    <td align="center"><i>Caption: Main dashboard overview showing title and location input.</i></td>
+    <td align="center"><i>Caption: Displaying real-time weather, forecast, and risk factors.</i></td>
+  </tr>
+</table>
+
 ## Features
 
 *   **Real-time Weather & Forecast:** Fetches and displays current conditions and a 5-7 day forecast for any specified city using the OpenWeatherMap API.
 *   **Local Temperature Prediction:** Ingests historical weather data (`local_weather.csv`), preprocesses it, and trains a Ridge Regression model (scikit-learn) to predict the next day's maximum temperature. Includes performance visualization and model details.
+    <br>
+    <div align="center">
+      <img src="Screenshot 2025-04-03 164811.png" alt="Local Temperature Prediction Plot" width="75%">
+      <br><i>Caption: Plot comparing actual vs. predicted maximum temperatures from the local model.</i>
+    </div>
 *   **Climate Risk & Insurance Simulation:**
     *   Calculates simple risk factors based on current weather.
     *   Simulates insurance claims and links them to a climate risk index via a basic linear model for projection demonstration.
@@ -18,6 +44,11 @@ This dashboard was developed as part of the InnovateHER hiring challenge conduct
 *   **Climate-Induced Migration Analysis (Simulated):** Visualizes simulated trends, causes, destinations, and future projections of climate migration. Includes risk scoring, correlation analysis, and policy recommendations based on simulated data.
 *   **Advanced Climate Model Demo (MetNet - Simplified):** Includes a highly simplified PyTorch implementation demonstrating the *concept* of using advanced models for spatial climate predictions (uses synthetic data, not operational).
 *   **Multimodal AI Assistant:** Integrates Google Gemini Pro Vision API for interactive Q&A, capable of understanding both text prompts and uploaded images related to climate risk and adaptation.
+    <br>
+    <div align="center">
+      <img src="Screenshot 2025-04-03 164744.png" alt="Multimodal AI Assistant Interaction" width="75%">
+      <br><i>Caption: Example interaction with the AI chatbot analyzing an uploaded image.</i>
+    </div>
 *   **Interactive UI:** Built with Streamlit, utilizing tabs, selectors, plots, and custom styling for user interaction.
 
 ## Technology Stack
@@ -42,6 +73,8 @@ This dashboard was developed as part of the InnovateHER hiring challenge conduct
 *   `requirements.txt`: Lists the necessary Python packages for the project.
 *   `.env`: (User must create) File to store API keys securely (see Setup).
 *   `README.md`: This file.
+*   *Various Screenshot `.png` files*: Located in the root directory, used for display in this README.
+*   *(Other support files/folders may be present)*
 
 ## Setup and Installation
 
@@ -74,13 +107,13 @@ This dashboard was developed as part of the InnovateHER hiring challenge conduct
     *   You need API keys from:
         *   [OpenWeatherMap](https://openweathermap.org/api) (Free tier is sufficient for basic use)
         *   [Google AI Studio](https://aistudio.google.com/) (For Gemini API key)
-        *   [Travily](https://tavily.com/) (For Travily API key)
     *   Create a file named `.env` in the project's root directory.
     *   Add your keys to the `.env` file like this:
         ```dotenv
         OPENWEATHERMAP_API_KEY=your_openweathermap_api_key_here
         GOOGLE_API_KEY=your_google_gemini_api_key_here
         ```
+    *(Note: The Tavily API key mentioned in earlier versions is not required for the final script)*
 
 6.  **Prepare Dataset:**
     *   Ensure the `local_weather.csv` file (sourced as described above) is present in the root directory of the project.
@@ -94,13 +127,6 @@ This dashboard was developed as part of the InnovateHER hiring challenge conduct
     streamlit run Final_Dashboard.py
     ```
 4.  The dashboard should open automatically in your web browser.
-
-## Demo Video
-
-A walkthrough video demonstrating the dashboard's features and functionality (approx. 10 minutes) is available here:
-
-**https://drive.google.com/file/d/1I2zYkY6whWnDLCFvmCel4_IgBaCu8lh8/view?usp=sharing**
-
 
 ## Data Source Acknowledgment
 
