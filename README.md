@@ -123,6 +123,7 @@ A walkthrough video demonstrating the dashboard's features and functionality (ap
     *   You need API keys from:
         *   [OpenWeatherMap](https://openweathermap.org/api) (Free tier is sufficient for basic use)
         *   [Google AI Studio](https://aistudio.google.com/) (For Gemini API key)
+        *   [Travily](https://tavily.com/) (For Travily API key)
     *   Create a file named `.env` in the project's root directory.
     *   Add your keys to the `.env` file like this:
         ```dotenv
