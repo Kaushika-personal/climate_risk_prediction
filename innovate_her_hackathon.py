@@ -33,7 +33,7 @@ load_dotenv()
 tavily_key = os.getenv('TAVILY_API_KEY')
 
 # OpenWeatherMap API key
-DEFAULT_WEATHER_KEY = 'b378409c5939d56d924d82438ea6f273' # Replace with YOUR key if not using .env
+DEFAULT_WEATHER_KEY = '{{{{{{{{{openweather key}}}}}}}}}}' # Replace with YOUR key if not using .env
 weather_api_key = os.getenv('OPENWEATHERMAP_API_KEY', DEFAULT_WEATHER_KEY)
 
 # --- NEW: Google Generative AI API Key ---
