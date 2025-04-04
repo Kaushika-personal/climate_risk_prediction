@@ -33,7 +33,7 @@ A walkthrough video demonstrating the dashboard's features and functionality (ap
 
 
 ## Features
-
+*   **innovate_her_hackathon.py** file contains the core code implementing all functionalities and features.
 *   **Real-time Weather & Forecast:** Fetches and displays current conditions and a 5-7 day forecast for any specified city using the OpenWeatherMap API.
 *   **Local Temperature Prediction:** Ingests historical weather data (`local_weather.csv`), preprocesses it, and trains a Ridge Regression model (scikit-learn) to predict the next day's maximum temperature. Includes performance visualization and model details.
 
