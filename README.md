@@ -140,7 +140,7 @@ A walkthrough video demonstrating the dashboard's features and functionality (ap
 2.  Ensure the `.env` file and `local_weather.csv` are correctly set up in the project directory.
 3.  Run the Streamlit application from your terminal:
     ```bash
-    streamlit run Final_Dashboard.py
+    streamlit run innovate_her_hackathon.py
     ```
 4.  The dashboard should open automatically in your web browser.
 
