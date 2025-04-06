@@ -92,6 +92,15 @@ A walkthrough video demonstrating the dashboard's features and functionality (ap
 *   *Various Screenshot `.png` files*: Located in the root directory, used for display in this README.
 *   *(Other support files/folders may be present)*
 
+## KPI metrics
+
+<br>
+    <div align="center">
+      <img src="Screenshot 2025-04-03 164744.png" alt="Multimodal AI Assistant Interaction" width="75%">
+      <br><i>Caption: KPI metrics of the prediction model .</i>
+    </div>
+
+
 ## Setup and Installation
 
 1.  **Prerequisites:**
