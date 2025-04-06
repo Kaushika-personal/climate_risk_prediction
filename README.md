@@ -100,7 +100,7 @@ A walkthrough video demonstrating the dashboard's features and functionality (ap
       <br><i>Caption: KPI metrics of the prediction model .</i>
     </div>
 <br>
-
+<div align="center">
 | Metric              | Value   | Description                                                   |
 |---------------------|---------|---------------------------------------------------------------|
 | **MAE**             | 3.36    | Mean Absolute Error – average absolute difference             |
@@ -109,7 +109,7 @@ A walkthrough video demonstrating the dashboard's features and functionality (ap
 | **R² Score**        | 0.66    | Coefficient of Determination – variance explained by model    |
 | **MAPE**            | 4.95%   | Mean Absolute Percentage Error – relative average error       |
 | **Explained Variance** | 0.66 | How much variance is captured by the model                    |
-
+</div>
 ## Setup and Installation
 
 1.  **Prerequisites:**
