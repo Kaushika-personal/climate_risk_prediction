@@ -100,6 +100,14 @@ A walkthrough video demonstrating the dashboard's features and functionality (ap
       <br><i>Caption: KPI metrics of the prediction model .</i>
     </div>
 
+| Metric              | Value   | Description                                                   |
+|---------------------|---------|---------------------------------------------------------------|
+| **MAE**             | 3.36    | Mean Absolute Error – average absolute difference             |
+| **MSE**             | 20.17   | Mean Squared Error – penalizes larger errors                  |
+| **RMSE**            | 4.49    | Root Mean Squared Error – square root of MSE                  |
+| **R² Score**        | 0.66    | Coefficient of Determination – variance explained by model    |
+| **MAPE**            | 4.95%   | Mean Absolute Percentage Error – relative average error       |
+| **Explained Variance** | 0.66 | How much variance is captured by the model                    |
 
 ## Setup and Installation
 
