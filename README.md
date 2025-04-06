@@ -100,6 +100,7 @@ A walkthrough video demonstrating the dashboard's features and functionality (ap
       <br><i>Caption: KPI metrics of the prediction model .</i>
     </div>
 <br>
+
 | Metric              | Value   | Description                                                   |
 |---------------------|---------|---------------------------------------------------------------|
 | **MAE**             | 3.36    | Mean Absolute Error – average absolute difference             |
