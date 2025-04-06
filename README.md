@@ -99,6 +99,7 @@ A walkthrough video demonstrating the dashboard's features and functionality (ap
       <img src="Screenshot 2025-04-07 002349.png" alt="Multimodal AI Assistant Interaction" width="75%">
       <br><i>Caption: KPI metrics of the prediction model .</i>
     </div>
+<br>
 
 | Metric              | Value   | Description                                                   |
 |---------------------|---------|---------------------------------------------------------------|
